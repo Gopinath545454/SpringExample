@@ -97,7 +97,7 @@
 				<artifactId>>maven-war-plugin</artifactId>
 				<version>2.9</version>
 				<configuration>
-				     <webXml>..../WEB-INF/web.xml</webXml>
+				     <webXml>/SpringExample/WebContent/WEB-INF/web.xml</webXml>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
