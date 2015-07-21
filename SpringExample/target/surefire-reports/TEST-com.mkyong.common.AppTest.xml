@@ -28,7 +28,7 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
     <property name="net.sourceforge.cobertura.datafile" value="D:\GIT\SpringExample\SpringExample\target\cobertura\cobertura.ser"/>
-    <property name="classworlds.conf" value="C:\Users\GOPINATH\workspace-luna\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6419921947496126222.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\GOPINATH\workspace-luna\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3125506937081939629.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin/server;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_25/bin/../jre/lib/amd64;C:\Program Files (x86)\MySQL\MySQL Server 5.6\bin;C:\Program Files\Java\jdk1.7.0_25\bin;C:\Program Files (x86)\mysql\bin;C:\Program Files\Java\jdk1.7.0_25;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\JENKINS\Maven;C:\JENKINS\Maven\bin;C:\JAVA BOOKS\eclipse-jee-luna-R-win32-x86_64\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
