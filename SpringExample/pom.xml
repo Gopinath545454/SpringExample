@@ -115,6 +115,29 @@
         <artifactId>sonar-maven-plugin</artifactId>
         <version>2.6</version>
       </plugin>
+      <plugin>
+        <groupId>com.hello2morrow.sonargraph</groupId>
+        <artifactId>maven-sonargraph-plugin</artifactId>
+        <version>7.2.0</version>
+        <configuration>
+          <useSonargraphWorkspace>true</useSonargraphWorkspace>
+          <file>System.sonargraph</file>
+        </configuration>
+        
+        <executions>
+          <execution>
+            <goals>
+              <goal>architect-report-verify</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 		</plugins>
 	</build>
+	 <pluginRepositories>
+    <pluginRepository>
+        <id>hello2morrow.maven.repository</id>
+        <url>http://maven.hello2morrow.com/repository</url>
+    </pluginRepository>
+  </pluginRepositories>
 </project>
