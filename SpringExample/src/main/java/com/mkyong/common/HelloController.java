@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HelloController {
-	
+
 	private int c;
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
@@ -30,10 +30,9 @@ public class HelloController {
 		return model;
 
 	}
-	
-	public int add(int a, int b)
-	{
-		return c=a+b;
+
+	public int add(int a, int b) {
+		return c = a + b;
 	}
 
 }

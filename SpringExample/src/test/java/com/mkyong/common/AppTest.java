@@ -10,12 +10,11 @@ import junit.framework.TestSuite;
 
 @RunWith(MockitoJUnitRunner.class)
 public class AppTest {
-	
+
 	HelloController helloController = new HelloController();
-	
+
 	@Test
-	public void add()
-	{
+	public void add() {
 		int actual = helloController.add(5, 5);
 		assertEquals(10, actual);
 	}
