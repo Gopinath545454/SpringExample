@@ -109,23 +109,13 @@
 					<path>SpringExample\target\*.war</path>
 				</configuration>
 			</plugin>
-	
-<plugin>
+	 <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>sonar-maven-plugin</artifactId>
-        <version>2.6</version>
+        <version>2.3</version>
       </plugin>
-      <plugin>
-        <groupId>com.hello2morrow.sonargraph</groupId>
-        <artifactId>maven-sonargraph-plugin</artifactId>
-        <version>7.2.0</version>
-      </plugin>
+
 		</plugins>
 	</build>
-	 <pluginRepositories>
-    <pluginRepository>
-        <id>hello2morrow.maven.repository</id>
-        <url>http://maven.hello2morrow.com/repository</url>
-    </pluginRepository>
-  </pluginRepositories>
+	
 </project>
