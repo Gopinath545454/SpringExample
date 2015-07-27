@@ -16,7 +16,7 @@ public class AppTest {
 	@Test
 	public void add() {
 		int actual = helloController.add(5, 5);
-		assertEquals(11, actual);
+		assertEquals(10, actual);
 	}
 
 }
