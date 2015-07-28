@@ -98,9 +98,9 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:9294/manager/text</url>
+					<url>http://localhost:3080/manager/text</url>
 					<server>localhost</server>
-					<path>**\target\*.war</path>
+					<path>/SpringExample</path>
 				</configuration>
 			</plugin>
 
